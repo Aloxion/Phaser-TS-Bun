@@ -1,4 +1,4 @@
-# phaser-ts-bun
+# phaser-ts-bun with webpack
 
 To install dependencies:
 
