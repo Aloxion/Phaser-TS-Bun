@@ -1,5 +1,6 @@
 
 import Phaser from "phaser";
+import App from "../app/app.component";
 
 
 
@@ -14,7 +15,7 @@ export class StartScene extends Phaser.Scene {
 
         startText.setInteractive({ useHandCursor: true });
         startText.on('pointerup', () => {
-            this.scene.start('app');
+            this.scene.start(App.name.toLowerCase());
         });
     }
 }

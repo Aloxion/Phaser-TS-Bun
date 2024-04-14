@@ -56,7 +56,7 @@ export class App extends Phaser.Scene {
 
     create(): void {
         this.sky = this.add.image(window.innerWidth / 2, window.innerHeight / 2, 'sky');
-        this.sky.setScale(2);
+        this.sky.setScale(3);
         this.platforms = this.physics.add.staticGroup();
         this.platforms.create(400, 568, 'ground').setScale(2).refreshBody();
 

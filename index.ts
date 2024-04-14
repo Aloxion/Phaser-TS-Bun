@@ -18,5 +18,7 @@ var config: Phaser.Types.Core.GameConfig = {
 };
 
 let game = new Phaser.Game(config);
-game.scene.start(StartScene.name);
+game.scene.start(StartScene.name.toLowerCase());
+
+
 export default game;
