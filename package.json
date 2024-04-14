@@ -1,0 +1,32 @@
+{
+  "name": "phasertsbun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_OPTIONS=\"--loader ts-node/esm\" npx webpack-cli serve --config ./webpack.config.dev.ts --mode development"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.12",
+    "@types/node": "^20.12.7",
+    "@types/webpack": "^5.28.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "declaration-bundler-webpack-plugin": "^1.0.3",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "wepack-cli": "^0.0.1-security"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "phaser": "^3.80.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
