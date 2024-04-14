@@ -1,4 +1,4 @@
-# phasertsbun
+# phaser-ts-bun
 
 To install dependencies:
 
@@ -6,10 +6,10 @@ To install dependencies:
 bun install
 ```
 
-To run:
+To run, webpack and serve server.
 
 ```bash
-bun run index.ts
+bun start
 ```
 
 This project was created using `bun init` in bun v1.1.3. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
